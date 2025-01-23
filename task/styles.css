@@ -1,0 +1,92 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .task-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input[type="text"],
+  .task-input input[type="datetime-local"] {
+    padding: 8px;
+  }
+  
+  .task-input button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter button {
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .notifications {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #d9534f;
+    text-align: center;
+  }
+  
+  .checkbox {
+    cursor: pointer;
+  }
